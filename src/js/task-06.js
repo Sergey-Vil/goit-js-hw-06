@@ -12,9 +12,7 @@ console.log();
 validationEl.addEventListener("blur", onValidationBlur);
 
 function onValidationBlur(e) {
-  console.log("Hello");
   if (validationEl.value.length != validationEl.dataset.length) {
-    // console.log(validationEl.value.length);
     validationEl.classList.add("invalid");
     validationEl.classList.remove("valid");
 
