@@ -29,6 +29,7 @@ images.forEach((image) => {
   listGallery.style.listStyle = "none";
   listGallery.style.justifyContent = "space-around";
   listGallery.style.flexWrap = "wrap";
+  listGallery.style.gap = "50px";
 
   // images.style.gap = 20px;
   console.log(markup);

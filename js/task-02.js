@@ -26,4 +26,3 @@ const itemIngrediets = ingredients.map((ingredient) => {
 });
 
 listIngredients.append(...itemIngrediets);
-console.log(listIngredients);
